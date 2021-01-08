@@ -10,8 +10,8 @@ import { State } from '../common/state';
 })
 export class Luv2ShopFormService {
 
-  private countriesUrl = 'http://localhost:8080/api/countries';
-  private statesUrl = 'http://localhost:8080/api/states';
+  private countriesUrl = 'https://springboot-ecommerce-nicole.herokuapp.com/countries';
+  private statesUrl = 'https://springboot-ecommerce-nicole.herokuapp.com/states';
 
   constructor(private httpClient: HttpClient) { }
 
