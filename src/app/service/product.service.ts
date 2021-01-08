@@ -12,9 +12,9 @@ import { ProductCategory } from '../common/product-category';
 export class ProductService {
 
 
-  private baseUrl = 'https://springboot-ecommerce-nicole.herokuapp.com/api/products';
+  private baseUrl = 'https://springboot-ecommerce-nicole.herokuapp.com/products';
 
-  private categoryUrl = 'https://springboot-ecommerce-nicole.herokuapp.com/api/product-category';
+  private categoryUrl = 'https://springboot-ecommerce-nicole.herokuapp.com/product-category';
 
   constructor(private httpClient: HttpClient) { }
 
