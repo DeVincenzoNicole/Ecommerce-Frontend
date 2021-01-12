@@ -8,7 +8,7 @@ import { Purchase } from '../common/purchase';
 })
 export class CheckoutService {
 
-  private purchaseUrl = 'https://springboot-ecommerce-nicole.herokuapp.com/api/checkout/purchase';
+  private purchaseUrl = 'https://springboot-ecommerce-nicole.herokuapp.com/checkout/purchase';
   
   constructor(private httpClient: HttpClient) { }
 
